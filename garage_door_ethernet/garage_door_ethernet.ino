@@ -9,7 +9,7 @@ IPAddress ip(10,10,0,111);
 // Initialize the Ethernet server library
 // with the IP address and port you want to use 
 // (port 80 is default for HTTP):
-EthernetServer server(80);
+EthernetServer server(8080);
 
 //const int triggerLEDPin = 5;
 const int triggerLEDPin = 13;
